@@ -61,7 +61,8 @@ translate([0, 0, ring_height/2]) {
     rotate(-308) snap();
     rotate(-45) snap();
     rotate(-(180+(snap_size/2))) snap(-1);
-    rotate(-274) ring_lock();
+    rotate(-273) ring_lock();
+    rotate(-91) ring_lock();
 }
 
 
