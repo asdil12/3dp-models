@@ -1,12 +1,14 @@
 swh = 25.4; // switch height
 wlt = 4; // wall thickness
-ftl = swh; // foot len
-plug_height = 10;
+ftl = swh*1.3; // foot len
+plug_height = 15;
 nubsi_height = wlt + plug_height;
+echo(nubsi_height);
 nubsi_width = 4;
 tray_wall_height = nubsi_height + 20;
 
-linear_extrude(height=10)
+rotate([90, 0, 90])
+linear_extrude(height=60)
 polygon(points=[
 [0,0],
 [0,wlt],
