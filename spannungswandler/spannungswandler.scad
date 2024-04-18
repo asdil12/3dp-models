@@ -1,4 +1,4 @@
-$fn=50;
+$fn=20;
 
 breite_display = 72;
 tiefe_display = 39.6;
